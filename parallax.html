@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+@font-face {font-family:  Mayton; src:url("/Users/Natalie/Downloads/club+/Mayton.otf"); }
+@font-face {font-family: Futura PT Light; src:url("/Users/Natalie/Library/Fonts/FuturaPTLight.otf"); }
+    
+body, html,.container {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    padding-left: 90px;
+}
+
+.container > p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top:-36px;
+	font-family: Mayton;
+	font-size: 72px;
+	text-align: center;
+	color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+    overflow: hidden;
+}
+
+
+li {
+    float: left;
+    width:25%;
+    overflow: hidden;
+}
+/*
+a {
+	color: #FFFFFF;
+	font-family: Mayton;
+	font-size: 20px;
+	padding-left: 90px;
+}*/
+
+.parallax {
+
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 90px;
+}
+
+.normal {
+	background-color:#FFFFFF;
+	font-family: Futura PT Light;
+	padding: 50px;
+	padding-left: 90px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #424242;
+}
+
+.normal > p {
+	font-size:25px;
+	text-align: justify;
+	padding-left: 90px;
+}
+
+.normal > h1 {
+	font-size: 32px;
+	text-align: center;
+	padding-left: 90px;
+}
+
+
+/*.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #424242;
+    height: 150px; /* Full height */
+    /*position: fixed;
+/*    overflow: hidden; /* Enable scrolling if the sidenav has too much content */
+    /*position: relative;
+    
+}
+*/
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin:0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height; auto;
+    text-align: center;
+}
+
+
+
+.nav li {
+    color: #FFFFFF;
+    padding: 20px 50px 20px 50px;
+    border-style: solid;
+    border-width: 5px;
+    font-family: Futura PT Light;
+    text-align: center;
+
+}
+
+.nav a {
+    font-family: Futura PT Light;
+    text-align:  center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav li:hover {
+    background-color: #7c7c7c;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 24.6%;
+    height; auto;
+    text-align: center;
+    text-decoration:none;
+}
+
+
+.dropdown a {
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #424242;
+    color: white;
+    padding: 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: Futura PT Light;
+    text-decoration:none;
+}
+
+.dropbtn:hover {
+    background-color: #7c7c7c;
+    text-decoration: none;
+}
+
+.dropbtn a {
+    background-color: #424242;
+    color: white;
+    padding: 25px;
+    margin: auto;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: Futura PT Light;
+    text-decoration: none;
+}
+
+.dropbtn a:hover {
+    background-color: #7c7c7c;
+    text-decoration:none;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+    <a href = "#"><p class = "dropbtn">Home</p></a>
+</div>
+<div class = "dropdown">
+    <a href = "aboutUs.html"><p class = "dropbtn">About Us</p></a>
+</div>
+<div class = "dropdown">
+    <a href = "#"><p class = "dropbtn">Coding</p></a>
+</div>
+<div class = "dropdown">
+    <a href = "#"><p class = "dropbtn">Robotics</p></a>
+</div>
+
+<!--<div class = "nav">
+    <a href = "#">Home</a>
+    <a href = "#">About Us</a>
+    <a href = "#">Robotics</a>
+    <a href = "#">Coding</a>
+    <p style = "position: absolute; text-align: center; width: 100%;bottom: 0; color: #FFFFFF; font-family: Futura PT Light; font-size: 14px;">HC Coding Club 17-18</p>
+    
+</ul>-->
+
+<!--<div class="nav">
+	<ul>
+        <li><a href="#parallax"> <br>HOME</a></li>
+        <li><a href="#about"><br>ABOUT</a></li>
+        <li><a href="#robotics"><br>ROBOTICS</a></li>
+		<li><a href="#ourstuff"><br>OUR STUFF</a></li>
+    </ul>
+</div>-->
+
+<div style="background-image: url('night owl.jpg');"class="parallax">
+	<div class="container"><p>coding club</p></div>
+</div>
+
+<div class="normal">
+	<h1>FOCUSES</h1>
+	<p>This year, Coding Club will focus on creating websites using HTML, CSS, JavaScript, and more. This site uses a common technique called parallax scrolling, where the background moves at a different speed than the foreground while scrolling. Read more about this in the Coding Tab.</p>
+</div>
+
+<div style="background-image: url('cave.jpg');"class="parallax">
+	<div class="container"><p>club info below</p></div>
+</div>
+
+<div style="background-color: #424242;color: #FFFFFF;padding: 20px 50px 20px 50px; border-style: solid; border-width: 5px;border-color: #FFFFFF;"class="normal">
+	<h1>INFO</h1>
+	<li style = "text-align: center;">Time: TBA</li>
+</div>
+
+<div style="background-image: url('r+r.jpg');"class="parallax">
+	<div class="container"><p>thank you!</p></div>
+</div>
+
+<div style="background-color: #424242;padding: 20px 50px 20px 50px; border-style: solid; border-width: 5px;border-color: #FFFFFF; text-align: center;"class="normal">
+	<a href = "https://docs.google.com/forms/d/e/1FAIpQLScZglK-ZcIroxMSbZVMlEP9erK8nfs59aiU_MfveCg19bU4rA/viewform?usp=sf_link" style="color: #FFFFFF;">SIGN UP HERE</a>
+</div>
+
+</body>
+</html>
